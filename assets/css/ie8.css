@@ -1,14 +1,13 @@
 /*
-	Strongly Typed by HTML5 UP
+	Miniport by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 /* Basic */
 
-	form input[type="text"],
-	form input[type="email"],
-	form input[type="password"],
+	form input[type=text],
+	form input[type=password],
 	form select,
 	form textarea {
 		position: relative;
@@ -24,19 +23,55 @@
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-	.button, .box.excerpt .date {
+/* Section/Article */
+
+	section > .last-child,
+	article > .last-child,
+	section.last-child,
+	article.last-child {
+		margin-bottom: 0;
+	}
+
+/* Box */
+
+	.box {
+		border: solid 1px #ddd;
+	}
+
+/* List */
+
+	ul.social li a {
+		position: relative;
+		top: 0 !important;
+		overflow: hidden;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		ul.social li a:before {
+			background: none;
+		}
+
+/* Wrappers */
+
+	.wrapper {
+		border-top: solid 1px #ddd;
+	}
+
+/* Nav */
+
+	#nav a {
 		position: relative;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-/* Sections/Article */
+/* Articles */
 
-	section > .last-child, section.last-child, article > .last-child, article.last-child {
-		margin-bottom: 0;
+	#top .image {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-/* Wrappers */
-
-	#banner-wrapper .inner {
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-	}
+		#top .image img {
+			position: relative;
+			-ms-behavior: url("assets/js/ie/PIE.htc");
+		}
