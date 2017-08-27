@@ -1902,6 +1902,19 @@
 						padding-left: 0;
 						margin-left: 0;
 					}
+        
+        /* Same height*/
+        
+         .row_mcol {
+            display: flex;
+            align-items: stretch;
+            
+        }
+
+        .box_mcol {
+            height: 100%;
+            
+        }
 
 	}
 
@@ -2104,5 +2117,7 @@
 				#copyright li {
 					display: block;
 				}
+        
+
 
 	}
